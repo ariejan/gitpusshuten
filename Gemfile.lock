@@ -1,9 +1,11 @@
 PATH
   remote: .
   specs:
-    gitpusshuten (0.0.5)
-      activesupport (~> 3.0.0)
+    gitpusshuten (0.0.9)
+      activesupport (~> 3.1.0)
+      activesupport (~> 3.1.0)
       highline (~> 1.6.0)
+      i18n (~> 0.6.0)
       json (~> 1.4.0)
       net-scp (~> 1.0.0)
       net-ssh (~> 2.0.0)
@@ -12,22 +14,25 @@ PATH
 GEM
   remote: http://rubygems.org/
   specs:
-    activesupport (3.0.1)
+    activesupport (3.1.0)
+      multi_json (~> 1.0)
     diff-lcs (1.1.2)
     fuubar (0.0.2)
       rspec (~> 2.0)
       rspec-instafail (~> 0.1.4)
       ruby-progressbar (~> 0.0.9)
-    highline (1.6.1)
+    highline (1.6.2)
+    i18n (0.6.0)
     infinity_test (0.2.0)
       watchr (>= 0.7)
     json (1.4.6)
     mocha (0.9.8)
       rake
+    multi_json (1.0.3)
     net-scp (1.0.4)
       net-ssh (>= 1.99.1)
-    net-ssh (2.0.23)
-    rainbow (1.1)
+    net-ssh (2.0.24)
+    rainbow (1.1.1)
     rake (0.8.7)
     rspec (2.0.1)
       rspec-core (~> 2.0.1)
@@ -47,14 +52,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activesupport (~> 3.0.0)
   fuubar
   gitpusshuten!
-  highline (~> 1.6.0)
   infinity_test
-  json (~> 1.4.0)
   mocha
-  net-scp (~> 1.0.0)
-  net-ssh (~> 2.0.0)
-  rainbow (~> 1.1.0)
   rspec

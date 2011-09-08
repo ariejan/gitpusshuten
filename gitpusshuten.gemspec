@@ -24,7 +24,9 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'highline',      ['~> 1.6.0']
   gem.add_dependency 'net-ssh',       ['~> 2.0.0']
   gem.add_dependency 'net-scp',       ['~> 1.0.0']
-  gem.add_dependency 'activesupport', ['~> 3.0.0']
+  gem.add_dependency 'activesupport', ['~> 3.1.0']
+  gem.add_dependency 'activesupport', ['~> 3.1.0']
+  gem.add_dependency 'i18n',          ['~> 0.6.0']
   gem.add_dependency 'json',          ['~> 1.4.0']
 
 end
